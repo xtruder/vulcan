@@ -17,7 +17,7 @@
 
 // defaults
 char *hostname = "127.0.0.1";
-int port = 6390;
+int port = 6379;
 
 void usage() {
     printf("usage: ./vulcan [number of keys] [string|list|set|zset] -h [host] -p [port] \n");

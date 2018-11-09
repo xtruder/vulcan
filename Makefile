@@ -1,2 +1,2 @@
 all:
-	gcc vulcan.c -lhiredis -o vulcan
+	gcc vulcan.c -static -lpthread -lhiredis -o vulcan
